@@ -1,0 +1,78 @@
+<html>
+<head>
+	<title>BODDULURI VISHNUSAI's Blog</title>
+    <style>
+	 
+
+header {
+	background-color:skyblue;
+	color:red;
+	padding: 15px;
+}
+nav {
+	display: flex;
+	justify-content: flex-end;
+    color:green;
+}
+main {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px;
+}
+
+article {
+	background-color: yellow;
+    box-shadow: 0 0 5px blue;
+	flex-basis: calc(33.33% - 20px);
+	margin: 30px;
+	padding:25px;
+</style>
+</head>
+<body>
+	<header>
+		<h1> BODDULURI VISHNUSAI's Blog</h1>
+		<nav>
+			<ul>
+				<li>Home</li>
+				<li>About</li>
+				<li>copyright</li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<article>
+			<header>
+				<h2>HOBBIES</h2>
+				<p>Posted on May 1st, 2023</p>
+			</header>
+			<ul><li>Playing chess</li>
+                <li>Reading books</li>
+                <li>Watching cricket</li>
+                <li>Puzzles solving</li>
+                <li>Eating cakes</li>
+            </ul>
+		</article>
+
+		<article>
+			<header>
+				<h2>SPORTS</h2>
+				<p  >Posted on May 1st, 2023</p>
+			</header>
+             
+			<p>CHESS is my favourite indoor game.I am the one the great cheaa players in INDIA.</p>
+		</article>
+	</main>
+
+	<aside>
+		<h3>About Me</h3>
+		<p>BODDULURI VISHNUSAI,ULICHI village,ONGOLE mandal,PRAKASAM district,ANDHRA PRADESH state,INDIA</p>
+	</aside>
+
+	<footer>
+		<p>&copy; 2023 BODDULURI VISHNUSAI</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
